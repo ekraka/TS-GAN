@@ -6,7 +6,7 @@ Implementation of conditional GAN in the predition of the transition state (TS) 
 * Tensorflow 2.2.0
 
 ### Prediction
-In order to predict the TS guess structure, make sure the copy of `g_mode.h5` file is in to the same working directory as `xyz` files of reactant and product. 
+In order to predict the TS guess structure, make sure the `g_mode.h5` file is in to the same working directory as `xyz` files of reactant and product. 
 The `g_mode.h5` can be foung in the `test_cases` folder depending on which reaction one is interested in.
 
     python predict.py reactant.xyz product.xyz
