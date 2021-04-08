@@ -7,7 +7,9 @@ Implementation of conditional GAN in the predition of the transition state (TS) 
 
 
 ### Instalation:
-        git clone 
+Go to the working directory:
+
+        git clone https://github.com/ekraka/TS-GAN.git
 
 
 ### Prediction
