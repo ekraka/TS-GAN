@@ -1,8 +1,6 @@
 # TS-GAN
+Application of conditional GAN in the predition of the transition state geometry. 
 
-
-#### Requriments:
-python 3.6 \\
-numpy 1.17.3 \\
-tensorflow 2.2.0 \\
-
+### Prerequisites:
+\item Python 
+\item tensorflow
