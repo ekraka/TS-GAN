@@ -25,5 +25,13 @@ To train the model on your own data, convert `xyz` files of reactants, transitio
 
     python train.py 
 
+During the training process, the model will save waigths of discriminator and generator as `d_model.h5` and `g_model.h5`, respectivelly. While the random real and fake samples of the CMs will be saved in the `temp` folder. 
+
+### Test
+To calculate the root-mean-square deviation (RMSD) use:
+
+        python align3D.py ts.xyz temp_ts.xyz
+
+
 ### If used, please cite. 
 
