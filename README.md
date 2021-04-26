@@ -18,7 +18,7 @@ The `g_mode.h5` can be found in the `test_cases` folder depending on which react
 
     python predict.py reactant.xyz product.xyz
     
-Prediction script will generate two files: `temp_ts.xyz` and `temp_mov.xyz`. The first file shows the final guess structure, while the second file shows the movie on how the optimization took place. Before use, we recommend open both files in any visualization program and check whether the generated guess is the desired one. In some cases choosing coordinates from `temp_mov.xyz` might be a better option for further TS optimization. 
+Prediction script will generate two files: `temp_ts.xyz` and `temp_mov.xyz`. The first file shows the final guess structure, while the second file shows the movie on how the optimization took place. Before use, we recommend open both files in any visualization program.
 
 ### Training
 To train the model on your own data, convert `xyz` files of reactants, transition states, and products into the Coulomb matrices (CMs) using `xyz_to_clmb.py`. Ensure data is in `npy` format and CMs of reactants, transition states, products are aligned. Create an empty folder `temp` in your working directory, then run:
