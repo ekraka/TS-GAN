@@ -1,5 +1,6 @@
 # TS-GAN
 The implementation of conditional GAN for the prediction of the transition state (TS) geometry.
+For more detils refer to our publication DOI: 10.1063/5.0055094
 
 ### Prerequisites:
 * Python 3.8.0
@@ -33,5 +34,6 @@ To calculate the root-mean-square deviation (RMSD) use:
         python align3D.py ts.xyz temp_ts.xyz
 
 
-### If used, please cite. 
+### Cite as: 
+J. Chem. Phys. 155, (2021), in press; doi: 10.1063/5.0055094
 
