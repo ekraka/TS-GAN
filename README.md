@@ -35,5 +35,5 @@ To calculate the root-mean-square deviation (RMSD) use:
 
 
 ### Cite as: 
-J. Chem. Phys. 155, (2021), in press; doi: 10.1063/5.0055094
+J. Chem. Phys. 155, (2021), Vol.155, Issue 2; doi: 10.1063/5.0055094
 
