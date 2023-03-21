@@ -47,7 +47,7 @@ To calculate the root-mean-square deviation (RMSD) use:
 
 
 ### Cite as: 
-M.Z. Mako{\'{s}}, N. Verma, E.C. Larson, M. Freindorf, and E. Kraka; Generative Adversarial Networks for Transition State Geometry Prediction; J. Chem. Phys. 155, (2021), Vol.155, Issue 2; doi.org/10.1063/5.0055094
+M.Z. Mako{\'s}, N. Verma, E.C. Larson, M. Freindorf, and E. Kraka; Generative Adversarial Networks for Transition State Geometry Prediction; J. Chem. Phys. 155, (2021), Vol.155, Issue 2; doi.org/10.1063/5.0055094
 
        @article{TSGAN,
        doi = {10.1063/5.0055094},
