@@ -3,8 +3,10 @@ The implementation of conditional GAN for the prediction of the transition state
 For more detils refer [here to our publication.](https://aip.scitation.org/doi/10.1063/5.0055094) 
 
 ### Prerequisites:
-* Python 3.8.0
+* Python 3.8.16
 * Tensorflow 2.2.0
+* numpy 1.20.0
+
 
 
 ### Installation:
