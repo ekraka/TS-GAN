@@ -1,6 +1,6 @@
 # TS-GAN
 The implementation of conditional GAN for the prediction of the transition state (TS) geometry based on cartesian coordinates of product and reactant.
-For more detils refer [here to our publication.](https://aip.scitation.org/doi/10.1063/5.0055094) 
+For more detils refer [here](https://aip.scitation.org/doi/10.1063/5.0055094) to our publication.
 
 ### Prerequisites:
 * Python 3.8.16
@@ -16,8 +16,8 @@ Go to the working directory:
 
 
 ### Prediction
-To predict the TS guess structure, make sure the `g_mode.h5` file is in the same working directory as `xyz` files of reactant and product. 
-The `g_mode.h5` can be found in the `test_cases` folder depending on which reaction one is interested in.
+To predict the TS guess structure, make sure the `g_model.h5` file is in the same working directory as `xyz` files of reactant and product. 
+The `g_model.h5` can be found in the `test_cases` folder depending on which reaction one is interested in.
 
     python predict.py reactant.xyz product.xyz
     
