@@ -1,6 +1,6 @@
 # TS-GAN
 The implementation of conditional GAN for the prediction of the transition state (TS) geometry based on cartesian coordinates of product and reactant.
-For more detils refer [here](https://aip.scitation.org/doi/10.1063/5.0055094) to our publication.
+For more information, please refer [here](https://aip.scitation.org/doi/10.1063/5.0055094) to our publication.
 
 ### Prerequisites:
 * Python 3.8.16
