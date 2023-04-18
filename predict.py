@@ -1,4 +1,3 @@
-# example of pix2pix gan for satellite to map image-to-image translation
 from numpy import load
 import numpy as np
 from numpy import zeros
@@ -17,7 +16,6 @@ from tensorflow.keras.layers import Dropout
 from tensorflow.keras.layers import BatchNormalization
 from tensorflow.keras.layers import LeakyReLU
 
-from matplotlib import pyplot
 import xyz_to_clmb as x2c
 import D2C
 import sys 
