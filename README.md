@@ -19,9 +19,10 @@ Go to the working directory:
 To predict the TS guess structure, make sure the `g_model.h5` file is in the same working directory as `xyz` files of reactant and product. 
 The `g_model.h5` can be found in the `test_cases` folder depending on which reaction one is interested in.
 
-    python TS_GAN.py reactant.xyz product.xyz
+    python path/ts_gan/TS_GAN.py reactant.xyz product.xyz
     
-The script will generate two files: `temp_ts.xyz` and `temp_mov.xyz`. The first file shows the final guess structure, while the second file shows the trajectory of how the optimization took place. 
+The example script: `run_tsgan.py`.
+TS_GAN will generate two files: `temp_ts.xyz` and `temp_mov.xyz`. The first file shows the final guess structure, while the second file shows the trajectory of how the optimization took place. 
 
 ### Training
 To train the model on your own data, convert `xyz` files of reactants, transition states, and products into the Coulomb matrices (CMs) and store as numpy file. This can be done with the gen_data.py script which requires specific format for files. The reactnats, transition states and products should be kept in a single folder with the following name specification:
