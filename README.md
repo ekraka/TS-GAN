@@ -3,7 +3,7 @@ The implementation of conditional GAN for the prediction of the transition state
 For more information, please refer [here](https://aip.scitation.org/doi/10.1063/5.0055094) to our publication.
 
 ### Note form developer
-This is an updated version of the TS-GAN. Here, I am including the Atomic Simulation Environment (ASE) and the newest version of Tensorflow (2.12) to speed up the code. 
+This is an updated version of the TS-GAN. Here, I am including the Atomic Simulation Environment (ASE) and the newest version of Tensorflow (2.12) to speed up the prediction code. 
 
 ### Prerequisites:
 * Python 3.9.16
