@@ -2,10 +2,14 @@
 The implementation of conditional GAN for the prediction of the transition state (TS) geometry based on cartesian coordinates of product and reactant.
 For more information, please refer [here](https://aip.scitation.org/doi/10.1063/5.0055094) to our publication.
 
+### Note from the developer
+The updated version of the TS-GAN is in the `updated` branch. An update of the TS-GAN using the up-to-date TensorFlow 2.12 and Atomistic Simulation Environment (ASE) to speed up the code.
+
+
 ### Prerequisites:
 * Python 3.8.16
 * Tensorflow 2.2.0
-* numpy 1.20.0
+* Numpy 1.20.0
 
 
 
