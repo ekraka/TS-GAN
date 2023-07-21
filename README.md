@@ -2,26 +2,26 @@
 The implementation of conditional GAN for the prediction of the transition state (TS) geometry based on cartesian coordinates of product and reactant.
 For more information, please refer [here](https://aip.scitation.org/doi/10.1063/5.0055094) to our publication.
 
+### Note form developer
+This is an updated version of the TS-GAN. Here, I am including the Atomic Simulation Environment (ASE) and the newest version of Tensorflow (2.12) to speed up the code. 
+
 ### Prerequisites:
-* Python 3.8.16
-* Tensorflow 2.2.0
-* numpy 1.20.0
-
-
+* Python 3.9.16
+* Tensorflow 2.12.0
+* Numpy 1.23.0
 
 ### Installation:
 Go to the working directory:
 
         git clone https://github.com/ekraka/TS-GAN.git
 
-
 ### Prediction
 To predict the TS guess structure, make sure the `g_model.h5` file is in the same working directory as `xyz` files of reactant and product. 
 The `g_model.h5` can be found in the `test_cases` folder depending on which reaction one is interested in.
 
-    python predict.py reactant.xyz product.xyz
+    python TS_GAN.py reactant.xyz product.xyz
     
-Prediction script will generate two files: `temp_ts.xyz` and `temp_mov.xyz`. The first file shows the final guess structure, while the second file shows the movie on how the optimization took place. 
+The script will generate two files: `temp_ts.xyz` and `temp_mov.xyz`. The first file shows the final guess structure, while the second file shows the trajectory of how the optimization took place. 
 
 ### Training
 To train the model on your own data, convert `xyz` files of reactants, transition states, and products into the Coulomb matrices (CMs) and store as numpy file. This can be done with the gen_data.py script which requires specific format for files. The reactnats, transition states and products should be kept in a single folder with the following name specification:
@@ -45,7 +45,7 @@ During the training process, the model will save weights of discriminator and ge
 ### Test
 To calculate the root-mean-square deviation (RMSD) use:
 
-        python align3D.py ts.xyz temp_ts.xyz
+        python align3D.py real_ts.xyz temp_ts.xyz
 
 
 ### Cite as: 
