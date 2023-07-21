@@ -32,7 +32,7 @@ To train the model on your own data, convert `xyz` files of reactants, transitio
 
 To create the numpy data, run the following command from this directory:
 
-        python path_to_TS-GAN/gen_data.py
+        python path/ts_gan/gen_data.py
         
 This will create a file called data.npy
 
